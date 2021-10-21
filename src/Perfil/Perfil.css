@@ -1,0 +1,42 @@
+.Perfil {
+  height: 80px;
+  /* background: #f3d922; */
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.Datos {
+  width: 300px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-radius: 0 8px 8px 0;
+}
+.Img {
+  width: 50px;
+  height: 80px;
+  background-color: #c5a830;
+  border-radius: 8px 0 0 8px;
+}
+.Nombre {
+  height: 40px;
+  width: 300px;
+  background-color: #1e4cd3;
+  border-radius: 0 8px 0 0;
+}
+.Email {
+  height: 40px;
+  width: 300px;
+  background: #ff393f;
+  border-radius: 0 0 8px 0;
+}
